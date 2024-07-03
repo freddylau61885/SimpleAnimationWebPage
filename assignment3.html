@@ -1,0 +1,112 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>Intermediate javaScript - Assignment 3</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles/desktop.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <style>
+      
+    </style>      
+  </head>
+
+  <body>
+    <div id="fade_in_modal">
+      <!-- the overlay of the modal -->
+      <a href="#" id="overlay"></a>
+      
+      <!-- the modal itself -->
+      <div id="the_modal">
+       
+        <!-- the modal header -->
+        <div id="header"></div>
+        
+        <!-- use image for close button -->
+        <a href="#" class="close_button">
+          <img width="16" 
+               height="16" 
+               alt="close button" 
+               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAdVBMVEUAAABNTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU1NTU0N3NIOAAAAJnRSTlMAAQIDBAUGBwgRFRYZGiEjQ3l7hYaqtLm8vsDFx87a4uvv8fP1+bbY9ZEAAAB8SURBVBhXXY5LFoJAAMOCIP4VBRXEv5j7H9HFDOizu2TRFljedgCQHeocWHVaAWStXnKyl2oVWI+kd1XLvFV1D7Ng3qrWKYMZ+MdEhk3gbhw59KvlH0eTnf2mgiRwvQ7NW6aqNmncukKhnvo/zzlQ2PR/HgsAJkncH6XwAcr0FUY5BVeFAAAAAElFTkSuQmCC"
+               >
+        </a>
+        <!-- end of the close button -->
+        
+        <!-- use hr for seperate the header and the content -->
+        <hr />
+        
+        <!-- div for the modal content -->
+        <div></div>
+        
+      </div>
+      <!-- end of modal -->
+      
+    </div>
+    <!-- end of #fade_in_modal -->
+    
+    <div id="wrapper">
+     
+      <!-- page header -->
+      <div id="header_img">
+        <img src="images/expensive_sword.jpg" 
+             alt="Expensive Sword" 
+             width="960"
+             height="444">
+        <div id="main_slogan" class="slogan">The Art of Weapon</div>
+        <div class="slogan">Deadly</div>
+        <div class="slogan">Flexible</div>
+        <div class="slogan">Elegant</div>
+      </div>
+      <!--end of page header -->
+      
+      <!-- page content -->
+      <div id="content_wrapper">
+       
+        <!-- change font size button -->
+        <div id="change_text_size">
+          <div id="smaller_text" title="Change to 12px or smaller">T-</div>
+          <div id="normal_text" title="Back to 16px">T</div>
+          <div id="larger_text" title="Change to 20px or larger">T+</div>
+        </div>
+        <!-- end of change font size button -->
+        
+        <h1>Japanese Sword - Katana</h1>
+        <div id="content">
+          <p>
+            Japanese sword also call Katana in Japanese.
+            The curved Bronze blades made after Heian Period(794-1185)
+            are most people acknowledge as the Japanese swords today. 
+            However, These are just one of the types of Japanese swords. 
+            Swords can be differ by shape, size, application and method of manufacture. 
+            In the following, we will talk about three common-known types of swords that 
+            are Katana, Tachi, and Nodachi.
+          </p>
+          
+          <!-- div for the swords information -->
+          <div id="list_of_swords"></div>
+        </div>
+        <!--end of sword content-->
+        
+        <p>
+          <button id="contact_us">Learn More</button>
+          <button id="reference">Reference</button>          
+        </p>
+        
+      </div>
+      <!-- end of page content -->
+      
+      <footer>
+        <p>Copyright &copy; - 2022 Intermediate JavaScript Assignment 3</p>
+      </footer>
+    </div>
+    
+
+  </body>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/assignment3.js"></script>
+
+</html>
